@@ -8,7 +8,9 @@ Slots detaching / attaching:
 
 ## Color theme (3d prints):
 Retro chrome
+
 ![Retro chrome theme](<Screen Shot 2026-10-06 at 16.56.47.png>)
 
 Classic casino
+
 ![Classic casino theme](<Screen Shot 2026-10-06 at 16.56.36.png>)
