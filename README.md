@@ -6,9 +6,9 @@ Jackpad is a modular slot machine macropad. Pull the lever and the slots spin an
 Slots detaching / attaching:
 ![Slot remove/add](jacpad_openshot_slotchange-ezgif.com-video-to-gif-converter.gif)
 
-Color theme (3d prints):
-- Retro chrome
+## Color theme (3d prints):
+Retro chrome
 ![Retro chrome theme](<Screen Shot 2026-10-06 at 16.56.47.png>)
 
--Classic casino
+Classic casino
 ![Classic casino theme](<Screen Shot 2026-10-06 at 16.56.36.png>)
