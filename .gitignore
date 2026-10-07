@@ -1,0 +1,13 @@
+# KiCad temporary & lock files
+*.lck
+*.kicad_prl
+*.tmp
+*.bak
+*-backups/
+
+# Local editor history
+.history/
+
+# Operating system junk
+.DS_Store
+Thumbs.db
