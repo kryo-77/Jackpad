@@ -20,8 +20,12 @@ Classic casino
 Custom surface-mount PCB layout required full PCBA manufacturing, which was going out of my budget as the shipping cost was already high. I spent over 6 hours working on `kicad_jackpad`, but I forgot to take a look at costs. I will now have to redesign everything from scratch again in the pcb, but this time it'll be simpler as I am using full module boards in the pcb.
 
 ### V1
-The project is split into two pcbs:
+The project is split into two pcbs: Main  and slot pcb.
 
-Main pcb and slot pcb.
+I went with ESP32 as I wanted to use it as a wireless macropad, as wireless makes more sense for the design of the Jackpad.
 
-1) For main pcb, I decided to use ESP32 S3 Wroom 01 chip as it has many gpio pins and is a cheap module too. I went with ESP32 as I wanted to use it as a wireless macropad, as wireless makes more sense for the design of the Jackpad. 
+1) Here is the component list for main pcb:
+- MCU: ESP32 S3 WROOM 1
+- USB_C board (For programming the esp32 chip only. I also only used one USB_C board even though usually there are 2 present on the S3. I did this because of simplicity and didnt understand use for 2 ports.)
+- Battery: 2S Li-ion pack
+- Step down converter: TPS568215RNN Buck Regulator (8A) (I changed TPS565201 to this as TPS565201 could only provide ~5A continous output which would be cutting close when all the motors ran at once.)
