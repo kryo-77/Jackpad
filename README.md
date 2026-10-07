@@ -38,5 +38,4 @@ I went with ESP32 as I wanted to use it as a wireless macropad, as wireless make
 
 3) Schematic: 
 
-![Main pcb schematic](<IImages/EB1E44F3-8531-416D-950F-A3E1F67AD2F2.png>)
-
+![Main pcb schematic](Images/{EB1E44F3-8531-416D-950F-A3E1F67AD2F2}.png)
