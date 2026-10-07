@@ -16,10 +16,10 @@ Classic casino
 ![Classic casino theme](<Images/Screen Shot 2026-10-06 at 16.56.36.png>)
 
 ## Updates:
-- V1.5
+### V1.5
 Custom surface-mount PCB layout required full PCBA manufacturing, which was going out of my budget as the shipping cost was already high. I spent over 6 hours working on `kicad_jackpad`, but I forgot to take a look at costs. I will now have to redesign everything from scratch again in the pcb, but this time it'll be simpler as I am using full module boards in the pcb.
 
-- V1
+### V1
 The project is split into two pcbs:
 
 Main pcb and slot pcb.
