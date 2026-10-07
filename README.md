@@ -24,8 +24,19 @@ The project is split into two pcbs: Main  and slot pcb.
 
 I went with ESP32 as I wanted to use it as a wireless macropad, as wireless makes more sense for the design of the Jackpad.
 
-1) Here is the component list for main pcb:
-- MCU: ESP32 S3 WROOM 1
-- USB_C board (For programming the esp32 chip only. I also only used one USB_C board even though usually there are 2 present on the S3. I did this because of simplicity and didnt understand use for 2 ports.)
-- Battery: 2S Li-ion pack
-- Step down converter: TPS568215RNN Buck Regulator (8A) (I changed TPS565201 to this as TPS565201 could only provide ~5A continous output which would be cutting close when all the motors ran at once.)
+1) Here is the component list for main pcb schematic I was able to wire:
+- **MCU**: ESP32 S3 WROOM 1
+- **USB_C board**: For programming the esp32 chip. *(I only used one USB_C board even though usually there are 2 present on the S3. I did this because of simplicity and didnt understand use for 2 ports.)*
+- **Battery**: 2S Li-ion pack
+- **Step down converter**: TPS568215RNN Buck Regulator (8A) *(I changed TPS565201 to this as TPS565201 could only provide ~5A continous output which would be cutting close when all the motors ran at once.)*
+- **Voltage regulator**: AMS1117
+- **Magnetic Encoder**: AS5600 (This will be used as the lever you pull.)
+
+2) Here are the remaining components that aren't wired up yet:
+- **Sound**: MAX98357A
+- **LIghts**: WS2812 RGB strip (as they only require 1 data pin)
+
+3) Schematic: 
+
+![Main pcb schematic](<IImages/EB1E44F3-8531-416D-950F-A3E1F67AD2F2.png>)
+
