@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MODULE_XIAO_ESP32_S3") (type "KiCad") (uri "C:/Users/athar/Downloads/XIAO_ESP32_S3/MODULE_XIAO_ESP32_S3.pretty") (options "") (descr ""))
+	(lib (name "AMASS_XT30PW-M") (type "KiCad") (uri "C:/Users/athar/Downloads/XT30PW-M/AMASS_XT30PW-M.pretty") (options "") (descr ""))
+)

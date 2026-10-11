@@ -1,0 +1,270 @@
+(footprint "step_down_buck_8a"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "60x45mm buck converter ")
+	(tags "step down, buck")
+	(property "Reference" "REF**"
+		(at -6.5 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1c6f8f77-0004-441b-9348-318c86331115")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "step_down_buck_8a"
+		(at 10.5 -14.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "120ea695-ede1-4554-b091-8d123dc3c122")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "874b8c81-fc9a-4501-ad4d-f4b0e8c054fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "60x45mm buck converter "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9076c23-0525-4faf-9ae7-a05fe77b5ae5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -31 -23.5)
+		(end 31 23.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7099ace3-fa57-42ea-9c14-e720e341bcd8")
+	)
+	(fp_circle
+		(center -26.5 -1)
+		(end -26 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "025a213e-bbbb-428c-b6f9-d8861b452ede")
+	)
+	(fp_circle
+		(center -26.5 1)
+		(end -26 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "999b1d55-1118-4766-98f3-5df33c1f5143")
+	)
+	(fp_circle
+		(center 26.5 -1)
+		(end 27 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "53bfc92a-5cc2-4310-aefb-a139a6b69c3c")
+	)
+	(fp_circle
+		(center 26.5 1)
+		(end 27 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ac0f58e3-8dab-4cd7-8a26-29425ed29e61")
+	)
+	(fp_rect
+		(start -35 -27.5)
+		(end 35 27.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "277c6d89-6c1e-41fa-a09f-6313cb88109f")
+	)
+	(fp_text user "J1"
+		(at -27.5 4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad451ec8-6bb6-47dc-9ebe-815a4b7dd79a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN +"
+		(at -25.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9e999bb3-7ba1-497f-90e7-486ced3dd621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "IN -"
+		(at -25.5 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fce71246-3a12-4f85-beeb-329f1b96971d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "(8a rated)"
+		(at -3.5 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8a4d72b-c6f3-4518-97b6-fd4199619ec0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "STEP DOWN CONVERTER"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa9d1a00-1430-4162-a787-8921259f3b2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 21.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0d61edf8-23fe-4fb6-aae5-aa31ba9b5b34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 21.5 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "779094d5-9068-4a4a-a86d-921afb170969")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "J3"
+		(at 25.5 4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "85030d0a-4a33-4a1e-aa97-c9b75ead2d76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.5 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "de9404b5-aad3-49e6-9706-503f293ec929")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -26.5 -18.5)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "06e8e680-220b-4215-9a27-42bd0199ca43")
+	)
+	(pad "" np_thru_hole circle
+		(at -26.5 18.5)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "65354626-1efa-47b8-a0fc-ca704b123b06")
+	)
+	(pad "" np_thru_hole circle
+		(at 26.5 -18.5)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "974601a5-7e8c-42db-8828-4d50f3b951f9")
+	)
+	(pad "" np_thru_hole circle
+		(at 26.5 18.5)
+		(size 3.4 3.4)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ca1c35c4-498b-4489-bd8a-5f729b6046cf")
+	)
+	(embedded_fonts no)
+)
