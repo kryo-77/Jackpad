@@ -55,5 +55,4 @@ Classic casino
 
 ### 2) Slot PCB
 
-
-![Schematic 1](Images/slot_schem.png)
+![Schematic 2](Images/slot_schem.png)
