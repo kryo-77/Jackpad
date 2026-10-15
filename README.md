@@ -47,6 +47,13 @@ Classic casino
 - **N20 300rpm motor**
 - **Mechanical switch**
 
+## Schematics:
+
+### 1) Main PCB
+
+![Schematic 1](Images/Main_schem.png)
+
+### 2) Slot PCB
 
 
-
+![Schematic 1](Images/slot_schem.png)
