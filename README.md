@@ -18,6 +18,16 @@ Classic casino
 
 ![Classic casino theme](<Images/Screen Shot 2026-10-06 at 16.56.36.png>)
 
+## How it works:
+- Two PCBs: Main (contains XIAO S3 as the main MCU, only 1 PCB) & Slot (contains ESP32-C3 supermini as the MCU, PCB quantity depends on how many macros you want)
+- XIAO S3 acts as a wireless keyboard
+- The main pcb has an AS5600 magnetic sensor which is the lever you pull to send signals to the ESP32-C3 for spinning motors.
+- ESP32 C3's send signals to XIAO S3 via ESP-NOW (vice-versa) for button presses, motor running etc.
+- The slots also have an AS5600 sensor each for positioning the motors correctly so they line the RFID tags correctly.
+- Each slot also has a PN532 rfid reader along with small rfid tags which sit on a drum which spin via the motor. A single mechanical switch is present under the drum. PN532 detects a rfid tag which is our 'macro' and as you click on the button, it sends that macro to S3.
+- There are limits to how many tags a SLOT can contain (due to size), but no limits to how many SLOT PCBs you can connect with each other, and that too in any order. The slots get a numbering via a 'E-IN / E-OUT' pin on each MCU which does the ordering of slots. A MR30 connector on each pcb has 3 pins: 5v/GND/ENUM for this reason.
+- There are two modes: One is just randomly selecting macros, basically a slot machine for looks (though you can set the random macros to do whatever you want). Second mode is where you group different macros together; so like you have macro for music player & 4 slots are connected to main pcb so the macros are: PLAY/PAUSE/NEXT/PREVIOUS. Other group is for FUSION-360 for Sketch/Extrude/Combine/Align tool. So the groups are selected in a sequence; once u pull the lever MUSIC group gets selected, pull lever again Fusion group gets selected and so on (loops), and this is where the AS5600 sensor is most needed.
+
 ## UPDATES:
 1) Changed from surface mount components and individual chips to carrier board type mounts for ease of soldering.
 2) Completed both main and slot pcb.
