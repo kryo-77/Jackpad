@@ -18,6 +18,9 @@ Classic casino
 
 ![Classic casino theme](<Images/Screen Shot 2026-10-06 at 16.56.36.png>)
 
+## What it is / Why i made it:
+- It's a macropad but in a style of a slot machine. The reason I made this is because slot machines look cool and I wanted to combine two completely different things.
+
 ## How it works:
 - Two PCBs: Main (contains XIAO S3 as the main MCU, only 1 PCB) & Slot (contains ESP32-C3 supermini as the MCU, PCB quantity depends on how many macros you want)
 - XIAO S3 acts as a wireless keyboard
