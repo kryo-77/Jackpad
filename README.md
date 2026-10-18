@@ -49,7 +49,13 @@ Classic casino
 
 ### CAD
 1) Folder `CAD` contains online downloaded models inside the `DOWNLOADS/extract` folder which I used to design the enclosure.
-2) Another folder in `CAD` called `Editable` contains .step file for the project. 
+2) Another folder in `CAD` called `Editable` contains .step file for the project.
+
+- While viewing / editing file (I used fusion360) models with these prefix in their name need to be:
+   - ig_ : ignored while printing
+   - s_ : separately printed
+   - p_ : printed together (all names with p_ print together even if in different folders)
+   - 2p_ : printed together but only with 2p_ in their name (even if in different folders)
 
 ## Jackpad BOM:
 
