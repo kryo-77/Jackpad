@@ -44,31 +44,32 @@ Classic casino
 2) In this folder, the first project you see is:  `Jackpad.kicad_pro`. This is my first schematic for the project. You can ignore this file as it does not serve any purpose.
 3) Inside is another folder named `breakout_jackpad` which is the main folder. It contains the main pcb files (`breakout_jackpad.pro`) as well as slot pcb files (inside `slot_jackpad` folder).
 
-# Jackpad BOM
+## Jackpad BOM:
 
-| Item | Amount | Cost (ea.) |
-|---|---|---|
-| 74AHCT125 (DIP-14) + DIP-14 socket | 1 | $0.96 |
-| MX126-5.0-02P screw terminal | 2 | $0.11 |
-| Male pin header strip, 2.54mm (40-pin) | 1 | $0.12 |
-| Female pin header strip, 2.54mm (40-pin) | 1 | $0.10 |
-| Male to Female jumper wires | 1 | $0.51 |
-| Female to Female jumper wires | 1 | $0.51 |
-| PN532 RF-ID V3 Module | 4 | $2.68 |
-| NFC Tag Sticker \| NTAG213 (pack of 10) | 3 | $1.56 |
-| 0.1uF (100nF) ceramic caps | 10 | $0.10 |
-| 1N5819 Schottky diodes | 6 | $0.062 |
-| Electrolytic caps: 470uF x2, 100uF x1, 10uF x1 | 1 | $1.44 |
-| ESP32-C3 SuperMini | 4 | $2.68 |
-| Magnetic encoder sensor module AS5600 | 5 | $1.64 |
-| DRV8833 motor driver breakout | 4 | $0.82 |
-| N20 300 RPM Motors | 4 | $2.6975 |
-| MR30 PCB connector (MR30PW-FEMALE, 3-pin) | 5 | $1.03 |
-| MR30 PCB connector (MR30PW-MALE, 3-pin) | 5 | $1.14 |
-| MAIN and SLOT PCB ORDER | 2 | $9.30 |
-| Battery 2500mAh 2S Li-ion | 1 | $5.98 |
-| WS2812B LEDs | NA | |
-| XIAO S3 | 1 | |
+| Item | Amount | Cost (ea.) | Use |
+|---|---|---|---|
+| 74AHCT125 (DIP-14) + DIP-14 socket | 1 | $0.96 | 3.3V to 5V level shifter for LED data |
+| MX126-5.0-02P screw terminal | 2 | $0.11 | External 5V input |
+| Male pin header strip, 2.54mm (40-pin) | 1 | $0.12 | Headers |
+| Female pin header strip, 2.54mm (40-pin) | 1 | $0.10 | Mount boards |
+| Male to Female jumper wires | 1 | $0.51 | Connect boards |
+| Female to Female jumper wires | 1 | $0.51 | Connect boards |
+| PN532 RF-ID V3 Module | 4 | $2.68 | RFID reading for macro |
+| NFC Tag Sticker \| NTAG213 (pack of 10) | 3 | $1.56 | RFID tags (macros) |
+| 0.1uF (100nF) ceramic caps | 10 | $0.10 | Decoupling (1 on main pcb + 2 per slot pcb) |
+| 1N5819 Schottky diodes | 6 | $0.062 | Power protection for esp32's(1 per board) |
+| Electrolytic caps: 470uF x2, 100uF x1, 10uF x1 | 1 | $1.44 | Power smoothing? |
+| ESP32-C3 SuperMini | 4 | $2.68 | SLOT PCB main board |
+| Magnetic encoder sensor module AS5600 | 5 | $1.64 | Motor encoder for stopping at soecific points & one for lever |
+| DRV8833 motor driver breakout | 4 | $0.82 | Motor control, slot board |
+| N20 300 RPM Motors | 4 | $2.6975 | For spinning barrels | 
+| MR30 PCB connector (MR30PW-FEMALE, 3-pin) | 5 | $1.03 | Power in/out (1 per slot pcb + 1 in main pcb) |
+| MR30 PCB connector (MR30PW-MALE, 3-pin) | 5 | $1.14 | Power in/out (1 per slot pcb) |
+| MAIN and SLOT PCB ORDER | 2 | $9.30 | PCB manufacture from robu.in |
+| Battery 2500mAh 2S Li-ion | 1 | $5.98 | Power :3 |
+| WS2812B LEDs | 6 | $0.05 USD | Lights |
+| XIAO S3 | 1 | $11.99 | Main PCB main board  |
+
 ## Schematics:
 
 ### 1) Main PCB
