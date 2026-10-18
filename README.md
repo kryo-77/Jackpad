@@ -40,9 +40,15 @@ Classic casino
 1) Work on 3d modeling for week-2 of half-life.
 
 ## Project files:
+
+### PCB
 1) Folder `kicad_jackpad` contains all the files for PCB/SCHEMATICS for main pcb and slot pcb.
-2) In this folder, the first project you see is:  `Jackpad.kicad_pro`. This is my first schematic for the project. You can ignore this file as it does not serve any purpose.
+2) In this folder, the first project you see is:  `Jackpad.kicad_pro`. This is my first schematic for the project. You can ignore this file as it does not serve any purpose(for now).
 3) Inside is another folder named `breakout_jackpad` which is the main folder. It contains the main pcb files (`breakout_jackpad.pro`) as well as slot pcb files (inside `slot_jackpad` folder).
+
+### CAD
+1) Folder `CAD` contains online downloaded models inside the `DOWNLOADS/extract` folder which I used to design the enclosure.
+2) Another folder in `CAD` called `Editable` contains .step file for the project. 
 
 ## Jackpad BOM:
 
