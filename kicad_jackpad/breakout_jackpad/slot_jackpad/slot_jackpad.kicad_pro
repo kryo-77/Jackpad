@@ -571,7 +571,7 @@
       "netlist": "./",
       "plot": "D:/Github/Triard lamp/Jackpad/kicad_jackpad/export_slot/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../EXPORT/step/New folder/slot_jackpad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

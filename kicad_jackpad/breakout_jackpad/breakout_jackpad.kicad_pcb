@@ -411,6 +411,62 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "0b4085b5-b4f0-43be-abb5-483423bbb7cb")
+		(at 203.549271 120.632377)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "2af9fd79-1e64-41ce-9609-2eaf40edeac8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "64f35698-746a-45fd-a516-c62b192e4395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29aa56ff-d837-40bb-8c16-566997648fca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "532bf5e6-edcb-4ba0-9e9b-aedbe09b1a49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "507990c6-2899-4a51-8df3-b9d76a141ca5")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3bf51e1f-02e9-431e-873d-c8a64f490e98")
