@@ -32,12 +32,13 @@ Classic casino
 - There are two modes: One is just randomly selecting macros, basically a slot machine for looks (though you can set the random macros to do whatever you want). Second mode is where you group different macros together; so like you have macro for music player & 4 slots are connected to main pcb so the macros are: PLAY/PAUSE/NEXT/PREVIOUS. Other group is for FUSION-360 for Sketch/Extrude/Combine/Align tool. So the groups are selected in a sequence; once u pull the lever MUSIC group gets selected, pull lever again Fusion group gets selected and so on (loops), and this is where the AS5600 sensor is most needed.
 
 ## UPDATES:
-1) Changed from surface mount components and individual chips to carrier board type mounts for ease of soldering.
-2) Completed both main and slot pcb.
-3) Week-1 completed of half-life hackclub.
+1) Week-1 completed of half-life hackclub.
+2) Changed from surface mount components and individual chips to carrier board type mounts for ease of soldering.
+3) Completed both main and slot pcb.
+4) Completed cad model for main pcb.
 
 ## To-do:
-1) Work on 3d modeling for week-2 of half-life.
+1) Work on 3d modeling for week-2 of half-life (slot PCB remaining).
 
 ## Project files:
 
