@@ -32,17 +32,30 @@ Classic casino
 - There are two modes: One is just randomly selecting macros, basically a slot machine for looks (though you can set the random macros to do whatever you want). Second mode is where you group different macros together; so like you have macro for music player & 4 slots are connected to main pcb so the macros are: PLAY/PAUSE/NEXT/PREVIOUS. Other group is for FUSION-360 for Sketch/Extrude/Combine/Align tool. So the groups are selected in a sequence; once u pull the lever MUSIC group gets selected, pull lever again Fusion group gets selected and so on (loops), and this is where the AS5600 sensor is most needed.
 
 ## UPDATES:
-1) Changed from surface mount components and individual chips to carrier board type mounts for ease of soldering.
-2) Completed both main and slot pcb.
-3) Week-1 completed of half-life hackclub.
+1) Week-1 completed of half-life hackclub.
+2) Changed from surface mount components and individual chips to carrier board type mounts for ease of soldering.
+3) Completed both main and slot pcb.
+4) Completed cad model for main pcb.
 
 ## To-do:
-1) Work on 3d modeling for week-2 of half-life.
+1) Work on 3d modeling for week-2 of half-life (slot PCB remaining).
 
 ## Project files:
+
+### PCB
 1) Folder `kicad_jackpad` contains all the files for PCB/SCHEMATICS for main pcb and slot pcb.
-2) In this folder, the first project you see is:  `Jackpad.kicad_pro`. This is my first schematic for the project. You can ignore this file as it does not serve any purpose.
+2) In this folder, the first project you see is:  `Jackpad.kicad_pro`. This is my first schematic for the project. You can ignore this file as it does not serve any purpose(for now).
 3) Inside is another folder named `breakout_jackpad` which is the main folder. It contains the main pcb files (`breakout_jackpad.pro`) as well as slot pcb files (inside `slot_jackpad` folder).
+
+### CAD
+1) Folder `CAD` contains online downloaded models inside the `DOWNLOADS/extract` folder which I used to design the enclosure.
+2) Another folder in `CAD` called `Editable` contains .step file for the project.
+
+- While viewing / editing file (I used fusion360) models with these prefix in their name need to be:
+   - ig_ : ignored while printing
+   - s_ : separately printed
+   - p_ : printed together (all names with p_ print together even if in different folders)
+   - 2p_ : printed together but only with 2p_ in their name (even if in different folders)
 
 ## Jackpad BOM:
 
