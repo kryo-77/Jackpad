@@ -48,14 +48,18 @@ Classic casino
 3) Inside is another folder named `breakout_jackpad` which is the main folder. It contains the main pcb files (`breakout_jackpad.pro`) as well as slot pcb files (inside `slot_jackpad` folder).
 
 ### CAD
-1) Folder `CAD` contains folder `Editable` which has .step file for the project.
+
+![CAD 1](CAD/Images/jackpad_enclouser_main_print.png)
+
+1) Folder `CAD` contains folder `Editable` which has .step & .f3d files for the project.
 2) `Printable` contains .stl files.
-3) DONT IGNORE THIS
+3) **Notes for printing / editing**
 - While viewing / editing file (I used fusion360) models with these prefix in their name need to be:
-   - ig_ : ignored while printing
-   - s_ : separately printed
-   - p_ : printed together (all names with p_ print together even if in different folders)
-   - 2p_ : printed together but only with 2p_ in their name (even if in different folders)
+   - **ig_** : ignored while printing
+   - **s_** : separately printed
+   - **p_** : printed together (all names with p_ print together even if in different folders)
+   - **2p_** : printed together but only with 2p_ in their name (even if in different folders)
+   - **3p_**: printed together but only with 3p_ in their name (even if in different folders)
 
 ## Jackpad BOM:
 
