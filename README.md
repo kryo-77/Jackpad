@@ -48,9 +48,9 @@ Classic casino
 3) Inside is another folder named `breakout_jackpad` which is the main folder. It contains the main pcb files (`breakout_jackpad.pro`) as well as slot pcb files (inside `slot_jackpad` folder).
 
 ### CAD
-1) Folder `CAD` contains online downloaded models inside the `DOWNLOADS/extract` folder which I used to design the enclosure.
-2) Another folder in `CAD` called `Editable` contains .step file for the project.
-
+1) Folder `CAD` contains folder `Editable` which has .step file for the project.
+2) `Printable` contains .stl files.
+3) DONT IGNORE THIS
 - While viewing / editing file (I used fusion360) models with these prefix in their name need to be:
    - ig_ : ignored while printing
    - s_ : separately printed
@@ -82,6 +82,7 @@ Classic casino
 | Battery 2500mAh 2S Li-ion | 1 | $5.98 | Power :3 |
 | WS2812B LEDs | 6 | $0.05 USD | Lights |
 | XIAO S3 | 1 | $11.99 | Main PCB main board  |
+| M3 screws | 1 |  $3.71 | screwing printed parts and PCBs together |
 
 ## Schematics:
 

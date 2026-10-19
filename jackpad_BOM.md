@@ -23,3 +23,4 @@
 | Battery 2500mAh 2S Li-ion | 1 | $5.98 | Power :3 |
 | WS2812B LEDs | 6 | $0.05 USD | Lights |
 | XIAO S3 | 1 | $11.99 | Main PCB main board  |
+| M3 screws | 1 |  $3.71 | screwing printed parts and PCBs together |
