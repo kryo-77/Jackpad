@@ -87,6 +87,7 @@ Classic casino
 | WS2812B LEDs | 6 | $0.05 USD | Lights |
 | XIAO S3 | 1 | $11.99 | Main PCB main board  |
 | M3 screws | 1 |  $3.71 | screwing printed parts and PCBs together |
+| CAD model print	| 1 |	2.50 |	3d print |
 
 ## Schematics:
 
