@@ -60,7 +60,7 @@ Classic casino
    - **2p_** : printed together but only with 2p_ in their name (even if in different folders)
    - **3p_**: printed together but only with 3p_ in their name (even if in different folders)
 
- ## CODE
+ ### CODE
 
  Folder `CODE` contains a `main_pcb,ino`.
  It may or may no work and i have no way to test it but as hackclub requires it I did some code for all the components.
