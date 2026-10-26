@@ -91,7 +91,7 @@ NOTE: the quantities are per PCB
 | MR30 PCB connector (MR30PW-FEMALE, 3-pin) | 2 | 1.03 | Power in/out (1 per slot pcb + 1 in main pcb) | https://partsbaba.com/products/amass-mr30pw30-female-connector-mr30pw-f20-g-y-original-drone-connectors?variant=48877861798045 |
 | MR30 PCB connector (MR30PW-MALE, 3-pin) | 2 | 1.14 | Power in/out (1 per slot pcb) | https://partsbaba.com/products/amass-mr30pw30-male-connector-mr30pw-m30-g-y-drone-connectors?variant=48784235626653 |
 | MAIN and SLOT PCB ORDER | 2 | 9.30 | PCB manufacture from robu.in | https://robu.in/product/online-pcb-manufacturing-service/ |
-| Battery 2500mAh 2S Li-ion | 1 | 5.98 | Power :3 | https://robu.in/product/pro-range-18650-li-ion-2500mah-7-4v-2s1p-protected-battery-pack-3c/ |
+| Battery 2500mAh 2S Li-ion | 1 | 5.98 | Power | https://robu.in/product/pro-range-18650-li-ion-2500mah-7-4v-2s1p-protected-battery-pack-3c/ |
 | WS2812B LEDs | 6 | 0.05 | Lights | https://robu.in/product/ws2812b-rgb-addressable-led-module/ |
 | XIAO S3 | 1 | 11.99 | Main PCB main board | https://robu.in/product/seeed-studio-xiao-esp32s3-2-4ghz-wifi-ble-5-0/ |
 | M3 screws | 1 | 3.71 | Screwing printed parts and PCBs together | https://onlyscrews.in/products/m3-allen-button-head-ss304-assorted-box?variant=50368948863289 |
