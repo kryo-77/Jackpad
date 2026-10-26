@@ -1,27 +1,27 @@
-# Jackpad BOM
+| Item | Amount | Cost (ea.) | Use | Link |
+|------|--------|------------|-----|------|
+| 74AHCT125 (DIP-14) + DIP-14 socket | 1 | 0.96 | 3.3V to 5V level shifter for LED data | https://robu.in/product/sn74ahct125n-texas-instruments-8ma-1-4-5v5-5v-8ma-4-dip-14-buffers-drivers-receivers-transceivers-rohs/ |
+| MX126-5.0-02P screw terminal | 2 | 0.11 | External 5V input | https://robu.in/product/xy300va-5-0-xinya-2-pin-screw-terminal-blockgreen/ |
+| Male pin header strip, 2.54mm (40-pin) | 1 | 0.12 | Headers | https://robu.in/product/2-54mm-2x40-pin-male-double-row-straight-long-header-strip/ |
+| Female pin header strip, 2.54mm (40-pin) | 1 | 0.10 | Mount boards | https://robocraze.com/products/40x1-female-berg-strip?_pos=3&_psq=female&_psid=89fdd915c&_ss=e |
+| Male to Female jumper wires | 1 | 0.51 | Connect boards | https://robu.in/product/male-to-female-jumper-wires-40-pcs-10cm/ |
+| Female to Female jumper wires | 1 | 0.51 | Connect boards | https://robu.in/product/10cm-female-female-breadboard-jumper-dupont-2-54mm-1p-1p-cable-40-pcs/ |
+| PN532 RF-ID V3 Module | 1 | 2.68 | RFID reading for macro | https://robocraze.com/products/nfc-near-field-communication-rf-id-v3-module?variant=40193169096857 |
+| NFC Tag Sticker \| NTAG213 (pack of 10) | 1 | 1.56 | RFID tags (macros) | https://amzn.in/d/00HLtY3b |
+| 0.1uF (100nF) ceramic caps | 10 | 0.10 | Decoupling (1 on main pcb + 2 per slot pcb) | https://robu.in/product/100nf-50v-disc-capacitor/ |
+| 1N5819 Schottky diodes | 2 | 0.062 | Power protection for esp32's (1 per board) | https://robu.in/product/1n5819-ap-mcc-40v-1a-600mv1a-do-41-schottky-diodes-rohs/ |
+| Electrolytic caps: 470uF x2, 100uF x1, 10uF x1 | 1 | 1.44 | Power smoothing? | https://robu.in/product/aluminum-electrolytic-12-kinds-0-22μf-470μf-capacitor-assorted-kit/ |
+| ESP32-C3 SuperMini | 1 | 2.67 | SLOT PCB main board | https://robocraze.com/products/esp32-c3-mini-development-board-unsoldered?variant=48465411506400 |
+| Magnetic encoder sensor module AS5600 | 2 | 1.64 | Motor encoder for stopping at soecific points & one for lever | https://robu.in/product/magnetic-encoder-sensor-module-as5600/ |
+| DRV8833 motor driver breakout | 1 | 0.75 | Motor control, slot board | https://robocraze.com/products/drv8833-2-channel-dc-motor-driver?variant=46651197784288 |
+| N20 600 RPM Motors | 1 | 2.40 | For spinning barrels | https://robocraze.com/products/6v-n20-600-rpm-miniature-gear-motor?variant=41491539886233 |
+| MR30 PCB connector (MR30PW-FEMALE, 3-pin) | 2 | 1.03 | Power in/out (1 per slot pcb + 1 in main pcb) | https://partsbaba.com/products/amass-mr30pw30-female-connector-mr30pw-f20-g-y-original-drone-connectors?variant=48877861798045 |
+| MR30 PCB connector (MR30PW-MALE, 3-pin) | 2 | 1.14 | Power in/out (1 per slot pcb) | https://partsbaba.com/products/amass-mr30pw30-male-connector-mr30pw-m30-g-y-drone-connectors?variant=48784235626653 |
+| MAIN and SLOT PCB ORDER | 2 | 9.30 | PCB manufacture from robu.in | https://robu.in/product/online-pcb-manufacturing-service/ |
+| Battery 2500mAh 2S Li-ion | 1 | 5.98 | Power :3 | https://robu.in/product/pro-range-18650-li-ion-2500mah-7-4v-2s1p-protected-battery-pack-3c/ |
+| WS2812B LEDs | 6 | 0.05 | Lights | https://robu.in/product/ws2812b-rgb-addressable-led-module/ |
+| XIAO S3 | 1 | 11.99 | Main PCB main board | https://robu.in/product/seeed-studio-xiao-esp32s3-2-4ghz-wifi-ble-5-0/ |
+| M3 screws | 1 | 3.71 | Screwing printed parts and PCBs together | https://onlyscrews.in/products/m3-allen-button-head-ss304-assorted-box?variant=50368948863289 |
+| CAD model print | 1 | 2.50 | 3d print | printing-legion channel |
 
-| Item | Amount | Cost (ea.) | Use |
-|---|---|---|---|
-| 74AHCT125 (DIP-14) + DIP-14 socket | 1 | $0.96 | 3.3V to 5V level shifter for LED data |
-| MX126-5.0-02P screw terminal | 2 | $0.11 | External 5V input |
-| Male pin header strip, 2.54mm (40-pin) | 1 | $0.12 | Headers |
-| Female pin header strip, 2.54mm (40-pin) | 1 | $0.10 | Mount boards |
-| Male to Female jumper wires | 1 | $0.51 | Connect boards |
-| Female to Female jumper wires | 1 | $0.51 | Connect boards |
-| PN532 RF-ID V3 Module | 4 | $2.68 | RFID reading for macro |
-| NFC Tag Sticker \| NTAG213 (pack of 10) | 3 | $1.56 | RFID tags (macros) |
-| 0.1uF (100nF) ceramic caps | 10 | $0.10 | Decoupling (1 on main pcb + 2 per slot pcb) |
-| 1N5819 Schottky diodes | 6 | $0.062 | Power protection for esp32's(1 per board) |
-| Electrolytic caps: 470uF x2, 100uF x1, 10uF x1 | 1 | $1.44 | Power smoothing? |
-| ESP32-C3 SuperMini | 4 | $2.68 | SLOT PCB main board |
-| Magnetic encoder sensor module AS5600 | 5 | $1.64 | Motor encoder for stopping at soecific points & one for lever |
-| DRV8833 motor driver breakout | 4 | $0.82 | Motor control, slot board |
-| N20 300 RPM Motors | 4 | $2.6975 | For spinning barrels | 
-| MR30 PCB connector (MR30PW-FEMALE, 3-pin) | 5 | $1.03 | Power in/out (1 per slot pcb + 1 in main pcb) |
-| MR30 PCB connector (MR30PW-MALE, 3-pin) | 5 | $1.14 | Power in/out (1 per slot pcb) |
-| MAIN and SLOT PCB ORDER | 2 | $9.30 | PCB manufacture from robu.in |
-| Battery 2500mAh 2S Li-ion | 1 | $5.98 | Power :3 |
-| WS2812B LEDs | 6 | $0.05 USD | Lights |
-| XIAO S3 | 1 | $11.99 | Main PCB main board  |
-| M3 screws | 1 |  $3.71 | screwing printed parts and PCBs together |
-| CAD model print	| 1 |	2.50 |	3d print |
+NOTE: the quantities are per PCB (exlcuding capactior
