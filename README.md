@@ -71,7 +71,7 @@ Classic casino
 
 NOTE: the quantities are per PCB
 
-| Item | Amount | Cost (ea.) | Use | Link |
+| Item | Amount | Cost USD (ea.) | Use | Link |
 |------|--------|------------|-----|------|
 | 74AHCT125 (DIP-14) + DIP-14 socket | 1 | 0.96 | 3.3V to 5V level shifter for LED data | https://robu.in/product/sn74ahct125n-texas-instruments-8ma-1-4-5v5-5v-8ma-4-dip-14-buffers-drivers-receivers-transceivers-rohs/ |
 | MX126-5.0-02P screw terminal | 2 | 0.11 | External 5V input | https://robu.in/product/xy300va-5-0-xinya-2-pin-screw-terminal-blockgreen/ |
