@@ -6,7 +6,7 @@ MX126-5.0-02P screw terminal,2,0.11,External 5V input,https://robu.in/product/xy
 Male to Female jumper wires,1,0.51,Connect boards,https://robu.in/product/male-to-female-jumper-wires-40-pcs-10cm/
 Female to Female jumper wires,1,0.51,Connect boards,https://robu.in/product/10cm-female-female-breadboard-jumper-dupont-2-54mm-1p-1p-cable-40-pcs/
 PN532 RF-ID V3 Module,1,2.68,RFID reading for macro,https://robocraze.com/products/nfc-near-field-communication-rf-id-v3-module?variant=40193169096857
-NFC Tag Sticker | NTAG213 (pack of 10),3,1.56,RFID tags (macros),https://amzn.in/d/00HLtY3b
+NFC Tag Sticker | NTAG213 (pack of 10),1,1.56,RFID tags (macros),https://amzn.in/d/00HLtY3b
 0.1uF (100nF) ceramic caps,10,0.10,Decoupling (1 on main pcb + 2 per slot pcb),https://robu.in/product/100nf-50v-disc-capacitor/
 1N5819 Schottky diodes,2,0.062,Power protection for esp32's(1 per board),https://robu.in/product/1n5819-ap-mcc-40v-1a-600mv1a-do-41-schottky-diodes-rohs/
 "Electrolytic caps: 470uF x2, 100uF x1, 10uF x1",1,1.44,Power smoothing?,https://robu.in/product/aluminum-electrolytic-12-kinds-0-22μf-470μf-capacitor-assorted-kit/
